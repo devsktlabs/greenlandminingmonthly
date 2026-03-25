@@ -1,4 +1,144 @@
-<!DOCTYPE html><html lang="en"> <head>
-<style>*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;padding:0;font-family:'Source Sans 3',-apple-system,sans-serif;line-height:1.7;color:#1a202c;background:#f7fafc}h1,h2,h3,h4,h5,h6{font-family:'Lora',Georgia,serif;color:#1a202c;line-height:1.25;margin:0 0 .5em}a{color:#fc8181;text-decoration:none}a:hover{text-decoration:underline}.site-nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 3px rgba(0,0,0,.06)}.nav-inner{max-width:72rem;margin:0 auto;padding:.875rem 1rem;display:flex;align-items:center;justify-content:space-between}@media(min-width:640px){.nav-inner{padding:.875rem 1.5rem}}.site-logo{font-family:'Lora',Georgia,serif;font-size:1.25rem;font-weight:700;color:#2d3748;text-decoration:none;letter-spacing:-.02em}@media(min-width:768px){.site-logo{font-size:1.5rem}}.nav-links{display:none;align-items:center;gap:1.5rem;font-size:.875rem;font-weight:500}@media(min-width:768px){.nav-links{display:flex}}.nav-links a{color:#4a5568;text-decoration:none;transition:color .15s}.nav-links a:hover{color:#2d3748;text-decoration:none}.hero{overflow:hidden;background:linear-gradient(135deg,#2d3748 0%,#2d3748dd 100%);padding:3rem 1rem}@media(min-width:640px){.hero{padding:4rem 1.5rem}}@media(min-width:768px){.hero{padding:5rem 1.5rem}}.hero-inner{max-width:72rem;margin:0 auto}.hero h1{font-size:2rem;font-weight:800;color:#fff;line-height:1.15}@media(min-width:640px){.hero h1{font-size:2.5rem}}@media(min-width:768px){.hero h1{font-size:3rem}}.hero .subtitle{margin-top:1rem;font-size:1.125rem;color:rgba(255,255,255,.7);max-width:42rem;line-height:1.65}.hero-badges{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.25rem}.badge{display:inline-block;padding:.2rem .65rem;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;border-radius:9999px}.badge-accent{background:#fc8181;color:white}.hero-ctas{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:.75rem}.cta-primary{display:inline-block;padding:.625rem 1.5rem;background:#fff;color:#2d3748;font-weight:600;border-radius:.5rem;font-size:.9375rem;text-decoration:none}.cta-primary:hover{opacity:.9;text-decoration:none}.cta-outline{display:inline-block;padding:.625rem 1.5rem;border:2px solid #fff;color:#fff;font-weight:600;border-radius:.5rem;font-size:.9375rem;text-decoration:none}.cta-outline:hover{opacity:.85;text-decoration:none}.section{max-width:72rem;margin:0 auto;padding:3.5rem 1rem}@media(min-width:640px){.section{padding:3.5rem 1.5rem}}.section-title{font-size:1.5rem;font-weight:700}@media(min-width:768px){.section-title{font-size:1.875rem}}.section-desc{margin-top:.5rem;font-size:1rem;color:#718096;max-width:42rem}.card{background:#fff;border:1px solid #e2e8f0;border-radius:.75rem;overflow:hidden;transition:box-shadow .2s,transform .2s}.card:hover{box-shadow:0 8px 25px rgba(0,0,0,.08);transform:translateY(-2px)}.card-body{padding:1.25rem}.card-title{font-size:1.0625rem;font-weight:600;color:#1a202c;margin:0}.card-desc{font-size:.875rem;margin-top:.375rem;color:#718096;line-height:1.6}.grid-2{display:grid;gap:1.5rem}.grid-3{display:grid;gap:1.5rem}@media(min-width:768px){.grid-2{grid-template-columns:1fr 1fr}}@media(min-width:768px){.grid-3{grid-template-columns:repeat(3,1fr)}}.article-content h2{margin-top:2rem;font-size:1.375rem;padding-bottom:.5rem;border-bottom:2px solid #fc818122}.article-content h3{margin-top:1.5rem;font-size:1.125rem}.article-content p{margin-bottom:1rem;color:#4a5568;line-height:1.75}.article-content ul,.article-content ol{margin-bottom:1rem;padding-left:1.5rem;color:#4a5568}.article-content li{margin-bottom:.375rem;line-height:1.6}.article-content strong{color:#1a202c}.article-content blockquote{margin:1.5rem 0;padding:1rem 1.25rem;border-left:4px solid #fc8181;background:#f7fafc;color:#4a5568;font-style:italic}.article-content hr{border:none;border-top:1px solid #e2e8f0;margin:2rem 0}.tag{display:inline-block;padding:.15rem .5rem;font-size:.7rem;font-weight:500;border-radius:.25rem;background:#fc818115;color:#fc8181;margin-right:.25rem}.page-header{background:#fff;border-bottom:1px solid #e2e8f0;padding:2rem 1rem}@media(min-width:640px){.page-header{padding:2.5rem 1.5rem}}.page-header-inner{max-width:56rem;margin:0 auto}.page-header h1{font-size:1.75rem;font-weight:700}@media(min-width:640px){.page-header h1{font-size:2.25rem}}.page-meta{margin-top:.5rem;font-size:.875rem;color:#a0aec0}.author-card{display:flex;gap:1rem;align-items:flex-start;margin-top:2rem;padding:1.25rem;background:#f7fafc;border-radius:.75rem}.author-avatar{width:3.5rem;height:3.5rem;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.125rem;color:white;background:#2d3748}.author-name{font-weight:600;font-size:.9375rem;color:#1a202c}.author-bio{font-size:.8125rem;color:#718096;margin-top:.25rem;line-height:1.5}.ticker-bar{background:#fff;border-bottom:1px solid #e2e8f0;overflow-x:auto}.ticker-inner{max-width:72rem;margin:0 auto;display:flex;align-items:center;gap:1.75rem;padding:.625rem 1rem;font-size:.8125rem;white-space:nowrap}.ticker-label{font-size:.6875rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#a0aec0}.ticker-sym{font-weight:700;color:#1a202c}.ticker-exch{font-size:.6875rem;color:#a0aec0;margin-left:.25rem}.footer{border-top:1px solid #e2e8f0;margin-top:4rem;padding:2.5rem 0;background:#fff}.footer-inner{max-width:72rem;margin:0 auto;padding:0 1rem}@media(min-width:640px){.footer-inner{padding:0 1.5rem}}.footer-grid{display:grid;gap:2rem}@media(min-width:768px){.footer-grid{grid-template-columns:1fr 1fr 1fr}}.footer-heading{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#2d3748;margin-bottom:.75rem}.footer-text{font-size:.8125rem;line-height:1.6;color:#718096}.footer-bottom{margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e2e8f0;text-align:center;font-size:.8125rem;color:#a0aec0}</style><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Climate Change and Arctic Mining: Risks and Opportunities | Greenland Mining Monthly</title><meta name="description" content="How climate change is reshaping the Arctic mining landscape and what it means for projects like Skaergaard."><link rel="canonical" href="https://greenlandminingmonthly.com/climate-change-and-arctic-mining-risks-and-opportunities/"><meta name="author" content="Margaret Olsen"><meta property="og:title" content="Climate Change and Arctic Mining: Risks and Opportunities"><meta property="og:description" content="How climate change is reshaping the Arctic mining landscape and what it means for projects like Skaergaard."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet"></head> <body> <header class="site-nav"> <div class="nav-inner"> <a href="/" class="site-logo">Greenland Mining Monthly</a> <nav class="nav-links" id="nav-links"></nav> </div> </header> <main> <div class="page-header"><div class="page-header-inner"> <h1>Climate Change and Arctic Mining: Risks and Opportunities</h1> <p class="page-meta">By Margaret Olsen &middot; 2026-03-23</p> </div></div> <div class="section" style="max-width:56rem;"> <div style="margin-bottom:1rem"><span class="tag">climate change</span><span class="tag">arctic mining</span><span class="tag">environment</span><span class="tag">risks</span><span class="tag">permafrost</span></div> <div class="article-content"><p>Climate change is the defining environmental challenge of our time, and its effects are most pronounced in the Arctic. For mining, climate change creates both risks and opportunities that must be understood and managed. This article examines the intersection of climate change and Arctic mining.</p> <h2>Arctic Amplification</h2> <p>The Arctic is warming 2-3 times faster than the global average:</p> <li>**Temperature trends**: Arctic temperatures have risen approximately 3-4°C since the 1970s, compared to approximately 1°C globally</li> <li>**Ice loss**: Arctic sea ice extent has declined by approximately 40% since satellite records began in 1979</li> <li>**Permafrost thaw**: Permafrost temperatures are rising, and the active layer (seasonally thawed surface layer) is deepening</li> <li>**Glacial retreat**: Greenland's ice sheet is losing mass at an accelerating rate</li> <h2>Risks for Arctic Mining</h2> <p><strong>Permafrost thaw</strong>:</p> <li>Foundation instability for buildings, roads, tailings facilities, and other infrastructure</li> <li>Thawing permafrost can cause differential settlement, cracking, and structural failure</li> <li>Infrastructure designed for stable permafrost may become unstable as permafrost warms</li> <li>Mitigation: Thermosiphons, insulated foundations, flexible engineering designs</li> <p><strong>Extreme weather</strong>:</p> <li>More frequent and severe storms create hazards for shipping, aviation, and surface operations</li> <li>Increased precipitation (rain) can overload drainage systems and increase erosion</li> <li>Mitigation: Enhanced design standards, weather monitoring, emergency preparedness</li> <p><strong>Glacial hazards</strong>:</p> <li>Glacial retreat creates unstable moraines and potential for outburst floods (jokulhlaup)</li> <li>Proglacial lakes can form behind unstable ice dams and drain catastrophically</li> <li>Mitigation: Glacial hazard assessments, monitoring, and early warning systems</li> <p><strong>Sea level rise</strong>:</p> <li>Rising sea levels threaten coastal infrastructure (ports, storage facilities)</li> <li>Increased storm surge risk for coastal mining infrastructure</li> <li>Mitigation: Elevated port facilities, coastal protection, design for future sea levels</li> <p><strong>Shorter winter operations</strong>:</p> <li>Reduced ice cover limits the ability to use ice roads for winter logistics</li> <li>Shorter frozen season affects winter drilling and construction windows</li> <li>Mitigation: Adjusted scheduling, all-season access infrastructure</li> <h2>Opportunities from Climate Change</h2> <p><strong>Extended shipping season</strong>:</p> <li>Longer ice-free periods extend the shipping window for concentrate export</li> <li>Potential for new shipping routes (Northwest Passage, Northern Sea Route) as Arctic ice retreats</li> <li>Reduces concentrate storage requirements and associated costs</li> <p><strong>Improved access</strong>:</p> <li>Glacial retreat exposes previously ice-covered bedrock, creating new exploration opportunities</li> <li>Longer field seasons extend the exploration and construction window</li> <li>New road and infrastructure routes may become viable as permafrost thaws</li> <p><strong>Energy opportunities</strong>:</p> <li>Changing hydrology may create new hydropower opportunities</li> <li>Wind resources may be enhanced by changing weather patterns</li> <li>Reduced heating requirements could lower energy costs in some scenarios</li> <p><strong>Strategic value</strong>:</p> <li>Climate change increases the urgency of critical mineral supply diversification</li> <li>Arctic mining in stable jurisdictions gains strategic value as other supply chains are disrupted</li> <h2>Carbon Footprint of Arctic Mining</h2> <p>Arctic mining operations typically have a higher carbon footprint than temperate-zone operations:</p> <li>**Diesel power**: Most Arctic mines rely on diesel generation, which is carbon-intensive</li> <li>**Long supply chains**: Transportation of materials and concentrate over long distances adds emissions</li> <li>**Permafrost disturbance**: Thawing permafrost can release methane and CO2</li> <p><strong>Mitigation options</strong>:</p> <li>Hybrid power (wind-diesel or solar-diesel) reduces diesel consumption</li> <li>Energy efficiency measures reduce per-unit energy consumption</li> <li>Carbon offsets may be required or voluntary</li> <li>Longer-term: potential for green hydrogen or ammonia power in Arctic operations</li> <h2>Skaergaard Climate Considerations</h2> <p>For Skaergaard specifically:</p> <li>**Permafrost**: Foundation design must account for warming permafrost over the 20-30 year mine life</li> <li>**Shipping**: Longer ice-free seasons would reduce concentrate storage requirements and extend the shipping window</li> <li>**Power**: Hybrid wind-diesel power could reduce emissions and costs</li> <li>**Water**: Changing precipitation patterns and glacial melt affect water supply and drainage</li> <li>**Design life**: Infrastructure must be designed for climate conditions projected over the full mine life and post-closure period</li> <h2>The Paradox of Arctic Mining and Climate Change</h2> <p>There is an inherent tension between Arctic mining and climate action:</p> <li>Mining produces the metals needed for clean energy technologies (EVs, wind turbines, solar panels)</li> <li>But mining operations contribute to carbon emissions and environmental disturbance</li> <li>Arctic mining has a higher carbon footprint than mining in many other locations</li> <p>This paradox requires careful management: ensuring that the strategic value of the metals produced (enabling clean energy transition) outweighs the environmental cost of their production.</p> <h2>Conclusion</h2> <p>Climate change creates both risks and opportunities for Arctic mining. Permafrost thaw, extreme weather, and glacial hazards increase operational complexity and cost. Longer shipping seasons, improved access, and enhanced strategic value create opportunities. For Skaergaard, climate change considerations must be integrated into every aspect of project design, from foundations and infrastructure to power supply and shipping logistics. The investment case should account for both climate-related costs and the strategic value of Arctic mining in a climate-constrained world.</p></div> </div> </main> <footer class="footer"> <div class="footer-inner"> <div class="footer-grid"> <div><p class="footer-heading">Greenland Mining Monthly</p><p class="footer-text">The monthly review of Greenland's resource sector</p></div> <div><p class="footer-heading">About</p><p class="footer-text">Editor and publisher. Former editor-in-chief at a Scandinavian mining publication. Now covering the Arctic independently.</p></div> <div><p class="footer-heading">Disclaimer</p><p class="footer-text">All content is for informational purposes only. Not financial advice.</p></div> </div> <div class="footer-bottom">&copy; 2026 Greenland Mining Monthly</div> </div> </footer> <script>
-    document.getElementById('nav-links').innerHTML = navData.map(function(p){return '<a >'+p.name+'</a>';}).join('');
-  </script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Climate Change and Arctic Mining: Risks and Opportunities | Greenland Mining Monthly</title>
+<meta name="description" content="How climate change is reshaping the Arctic mining landscape and what it means for projects like Skaergaard.">
+<link rel="canonical" href="https://greenlandminingmonthly.com/climate-change-and-arctic-mining-risks-and-opportunities/">
+<meta name="author" content="Margaret Olsen">
+<meta property="og:title" content="Climate Change and Arctic Mining: Risks and Opportunities">
+<meta property="og:description" content="How climate change is reshaping the Arctic mining landscape and what it means for projects like Skaergaard.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;padding:0;font-family:'Inter',-apple-system,sans-serif;line-height:1.7;color:#1a202c;background:#f7fafc}h1,h2,h3,h4,h5,h6{font-family:'Merriweather',Georgia,serif;color:#1a202c;line-height:1.25;margin:0 0 .5em}a{color:#fc8181;text-decoration:none}a:hover{text-decoration:underline}.site-nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 3px rgba(0,0,0,.06)}.nav-inner{max-width:72rem;margin:0 auto;padding:.875rem 1rem;display:flex;align-items:center;justify-content:space-between}@media(min-width:640px){.nav-inner{padding:.875rem 1.5rem}}.site-logo{font-family:'Merriweather',Georgia,serif;font-size:1.25rem;font-weight:700;color:#2d3748;text-decoration:none;letter-spacing:-.02em}@media(min-width:768px){.site-logo{font-size:1.5rem}}.tag{display:inline-block;padding:.15rem .5rem;font-size:.7rem;font-weight:500;border-radius:.25rem;background:#fc818115;color:#fc8181;margin-right:.25rem}.page-header{background:#fff;border-bottom:1px solid #e2e8f0;padding:2rem 1rem}@media(min-width:640px){.page-header{padding:2.5rem 1.5rem}}.page-header-inner{max-width:56rem;margin:0 auto}.page-header h1{font-size:1.75rem;font-weight:700}@media(min-width:640px){.page-header h1{font-size:2.25rem}}.page-meta{margin-top:.5rem;font-size:.875rem;color:#a0aec0}.section{max-width:72rem;margin:0 auto;padding:3.5rem 1rem}@media(min-width:640px){.section{padding:3.5rem 1.5rem}}.article-content h2{margin-top:2rem;font-size:1.375rem;padding-bottom:.5rem;border-bottom:2px solid #fc818122}.article-content h3{margin-top:1.5rem;font-size:1.125rem}.article-content p{margin-bottom:1rem;color:#4a5568;line-height:1.75}.article-content ul,.article-content ol{margin-bottom:1rem;padding-left:1.5rem;color:#4a5568}.article-content li{margin-bottom:.375rem;line-height:1.6}.article-content strong{color:#1a202c}.article-content blockquote{margin:1.5rem 0;padding:1rem 1.25rem;border-left:4px solid #fc8181;background:#f7fafc;color:#4a5568;font-style:italic}.footer{border-top:1px solid #e2e8f0;margin-top:4rem;padding:2.5rem 0;background:#fff}.footer-inner{max-width:72rem;margin:0 auto;padding:0 1rem}@media(min-width:640px){.footer-inner{padding:0 1.5rem}}.footer-grid{display:grid;gap:2rem}@media(min-width:768px){.footer-grid{grid-template-columns:1fr 1fr 1fr}}.footer-heading{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#2d3748;margin-bottom:.75rem}.footer-text{font-size:.8125rem;line-height:1.6;color:#718096}.footer-bottom{margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e2e8f0;text-align:center;font-size:.8125rem;color:#a0aec0}</style>
+</head>
+<body>
+<header class="site-nav">
+<div class="nav-inner">
+<a href="/" class="site-logo">Greenland Mining Monthly</a>
+</div>
+</header>
+<main>
+<div class="page-header"><div class="page-header-inner">
+<h1>Climate Change and Arctic Mining: Risks and Opportunities</h1>
+<p class="page-meta">By Margaret Olsen &middot; 2026-03-23</p>
+</div></div>
+<div class="section" style="max-width:56rem;">
+<div style="margin-bottom:1rem"><span class="tag">climate change</span><span class="tag">arctic mining</span><span class="tag">environment</span><span class="tag">risks</span></div>
+<div class="article-content"><p>Climate change is the defining environmental challenge of our time, and its effects are most pronounced in the Arctic. For mining, climate change creates both risks and opportunities that must be understood and managed. This article examines the intersection of climate change and Arctic mining.
+</p>
+<h2>Arctic Amplification</h2>
+<p>The Arctic is warming 2-3 times faster than the global average:
+</p>
+<ul><li><strong>Temperature trends</strong>: Arctic temperatures have risen approximately 3-4°C since the 1970s, compared to approximately 1°C globally</li>
+<li><strong>Ice loss</strong>: Arctic sea ice extent has declined by approximately 40% since satellite records began in 1979</li>
+<li><strong>Permafrost thaw</strong>: Permafrost temperatures are rising, and the active layer (seasonally thawed surface layer) is deepening</li>
+<li><strong>Glacial retreat</strong>: Greenland's ice sheet is losing mass at an accelerating rate</li>
+</ul>
+<h2>Risks for Arctic Mining</h2>
+<p><strong>Permafrost thaw</strong>:
+</p>
+<ul><li>Foundation instability for buildings, roads, tailings facilities, and other infrastructure</li>
+<li>Thawing permafrost can cause differential settlement, cracking, and structural failure</li>
+<li>Infrastructure designed for stable permafrost may become unstable as permafrost warms</li>
+<li>Mitigation: Thermosiphons, insulated foundations, flexible engineering designs</li>
+</ul>
+<p><strong>Extreme weather</strong>:
+</p>
+<ul><li>More frequent and severe storms create hazards for shipping, aviation, and surface operations</li>
+<li>Increased precipitation (rain) can overload drainage systems and increase erosion</li>
+<li>Mitigation: Enhanced design standards, weather monitoring, emergency preparedness</li>
+</ul>
+<p><strong>Glacial hazards</strong>:
+</p>
+<ul><li>Glacial retreat creates unstable moraines and potential for outburst floods (jokulhlaup)</li>
+<li>Proglacial lakes can form behind unstable ice dams and drain catastrophically</li>
+<li>Mitigation: Glacial hazard assessments, monitoring, and early warning systems</li>
+</ul>
+<p><strong>Sea level rise</strong>:
+</p>
+<ul><li>Rising sea levels threaten coastal infrastructure (ports, storage facilities)</li>
+<li>Increased storm surge risk for coastal mining infrastructure</li>
+<li>Mitigation: Elevated port facilities, coastal protection, design for future sea levels</li>
+</ul>
+<p><strong>Shorter winter operations</strong>:
+</p>
+<ul><li>Reduced ice cover limits the ability to use ice roads for winter logistics</li>
+<li>Shorter frozen season affects winter drilling and construction windows</li>
+<li>Mitigation: Adjusted scheduling, all-season access infrastructure</li>
+</ul>
+<h2>Opportunities from Climate Change</h2>
+<p><strong>Extended shipping season</strong>:
+</p>
+<ul><li>Longer ice-free periods extend the shipping window for concentrate export</li>
+<li>Potential for new shipping routes (Northwest Passage, Northern Sea Route) as Arctic ice retreats</li>
+<li>Reduces concentrate storage requirements and associated costs</li>
+</ul>
+<p><strong>Improved access</strong>:
+</p>
+<ul><li>Glacial retreat exposes previously ice-covered bedrock, creating new exploration opportunities</li>
+<li>Longer field seasons extend the exploration and construction window</li>
+<li>New road and infrastructure routes may become viable as permafrost thaws</li>
+</ul>
+<p><strong>Energy opportunities</strong>:
+</p>
+<ul><li>Changing hydrology may create new hydropower opportunities</li>
+<li>Wind resources may be enhanced by changing weather patterns</li>
+<li>Reduced heating requirements could lower energy costs in some scenarios</li>
+</ul>
+<p><strong>Strategic value</strong>:
+</p>
+<ul><li>Climate change increases the urgency of critical mineral supply diversification</li>
+<li>Arctic mining in stable jurisdictions gains strategic value as other supply chains are disrupted</li>
+</ul>
+<h2>Carbon Footprint of Arctic Mining</h2>
+<p>Arctic mining operations typically have a higher carbon footprint than temperate-zone operations:
+</p>
+<ul><li><strong>Diesel power</strong>: Most Arctic mines rely on diesel generation, which is carbon-intensive</li>
+<li><strong>Long supply chains</strong>: Transportation of materials and concentrate over long distances adds emissions</li>
+<li><strong>Permafrost disturbance</strong>: Thawing permafrost can release methane and CO2</li>
+</ul>
+<p><strong>Mitigation options</strong>:
+</p>
+<ul><li>Hybrid power (wind-diesel or solar-diesel) reduces diesel consumption</li>
+<li>Energy efficiency measures reduce per-unit energy consumption</li>
+<li>Carbon offsets may be required or voluntary</li>
+<li>Longer-term: potential for green hydrogen or ammonia power in Arctic operations</li>
+</ul>
+<h2>Skaergaard Climate Considerations</h2>
+<p>For Skaergaard specifically:
+</p>
+<ul><li><strong>Permafrost</strong>: Foundation design must account for warming permafrost over the 20-30 year mine life</li>
+<li><strong>Shipping</strong>: Longer ice-free seasons would reduce concentrate storage requirements and extend the shipping window</li>
+<li><strong>Power</strong>: Hybrid wind-diesel power could reduce emissions and costs</li>
+<li><strong>Water</strong>: Changing precipitation patterns and glacial melt affect water supply and drainage</li>
+<li><strong>Design life</strong>: Infrastructure must be designed for climate conditions projected over the full mine life and post-closure period</li>
+</ul>
+<h2>The Paradox of Arctic Mining and Climate Change</h2>
+<p>There is an inherent tension between Arctic mining and climate action:
+</p>
+<ul><li>Mining produces the metals needed for clean energy technologies (EVs, wind turbines, solar panels)</li>
+<li>But mining operations contribute to carbon emissions and environmental disturbance</li>
+<li>Arctic mining has a higher carbon footprint than mining in many other locations</li>
+</ul>
+<p>This paradox requires careful management: ensuring that the strategic value of the metals produced (enabling clean energy transition) outweighs the environmental cost of their production.
+</p>
+<h2>Conclusion</h2>
+<p>Climate change creates both risks and opportunities for Arctic mining. Permafrost thaw, extreme weather, and glacial hazards increase operational complexity and cost. Longer shipping seasons, improved access, and enhanced strategic value create opportunities. For Skaergaard, climate change considerations must be integrated into every aspect of project design, from foundations and infrastructure to power supply and shipping logistics. The investment case should account for both climate-related costs and the strategic value of Arctic mining in a climate-constrained world.
+</p></div>
+</div>
+</main>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-grid">
+<div><p class="footer-heading">Greenland Mining Monthly</p><p class="footer-text">The monthly review of Greenland's resource sector</p></div>
+<div><p class="footer-heading">About</p><p class="footer-text">Resource sector research publisher. Independent analysis of Arctic mining and critical minerals.</p></div>
+<div><p class="footer-heading">Disclaimer</p><p class="footer-text">All content is for informational purposes only. Not financial advice.</p></div>
+</div>
+<div class="footer-bottom">&copy; 2026 Greenland Mining Monthly</div>
+</div>
+</footer>
+</body>
+</html>
